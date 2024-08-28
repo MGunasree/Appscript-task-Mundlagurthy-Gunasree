@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: center; /* Center the navigation links */
+  padding: 0.5rem 0;
+  position: relative;
+}
+
+.nav a {
+  margin: 0 1rem; 
+  text-decoration: none;
+  color: #555; 
+  font-weight: 600;
+  font-size: 1.2rem; 
+  letter-spacing: 0.05rem; 
+  padding: 0.5rem 1rem; 
+  display: flex;
+  align-items: center; 
+  transition: color 0.3s ease; 
+}
+
+.nav a:hover {
+  color: #333; /* Darker color on hover */
+}
+
+.nav::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Position 10px below the nav */
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgba(170, 170, 170, 0.5); /* Light gray line with transparency */
+}

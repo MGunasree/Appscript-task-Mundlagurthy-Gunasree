@@ -1,0 +1,67 @@
+.footer {
+  background-color: #000; /* Background color */
+  color: #fff; /* Text color */
+  padding: 40px 20px; /* Padding around the footer */
+  font-family: Arial, sans-serif; /* Font style */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.footerDivider {
+  border-top: 1px solid #333; /* Light 1px line */
+  margin: 20px 0;
+}
+
+/* Align footer links, follow us, and payment sections horizontally */
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px; /* Space between sections */
+  flex-wrap: wrap; /* Wrap to next line if not enough space */
+}
+
+.footerColumn ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.footerColumn li {
+  margin-bottom: 10px; /* Space between list items */
+}
+
+.footerColumn a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footerColumn a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.footerSocials a,
+.footerPayments img {
+  margin-right: 10px;
+}
+
+.footerPayments img {
+  width: 40px; 
+  height: auto; 
+}
+
+.footerCopyright {
+  border-top: 1px solid #333; /* Line above copyright text */
+  padding-top: 20px;
+  font-size: 14px; /* Smaller font size for copyright */
+  text-align: center; /* Center the copyright text */
+  margin-top: 20px;
+}
